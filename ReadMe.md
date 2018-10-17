@@ -51,6 +51,31 @@ These comments can be turned off in the Preferences sheet for a more compact fil
 
 ### Version History ###
 
+*Version 1.3*
+*Sep 25, 2018*
+
+– Added Dark Mode support.  
+– Built with Xcode 10.0 on macOS 10.14 Mojave.  
+
+*Version 1.2.8*
+*Sep 24, 2018*
+
+– Updated list of build setting description files to include Apple Clang file.  
+– Fixed crash when xcspec file was not found when reading build setting descriptions.  
+– Tested Xcode 10.0-compatible project files with Xcode 10.  
+– Tested build setting descriptions with Xcode 10.  
+– This the last version that will build cleanly on macOS 10.13 and earlier.  
+– Built with Xcode 9.4.1 on macOS 10.13.6 High Sierra.  
+
+*Version 1.2.7*
+*Aug 19, 2018*
+
+– Added alert to notify users if the selected project contains no build settings.  
+– Added names and descriptions for some common settings without info.  
+– Updated to extract build settings from Xcode 9.3-compatible project files.  
+– Updated to extract build settings from Xcode 10.0-compatible project files. (Tested with beta 6.)  
+– Made changes to prepare for Mojave Dark Mode.  
+
 *Version 1.2.6*
 *Nov 3, 2017*
 
